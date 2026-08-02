@@ -1,0 +1,116 @@
+[
+    {
+        "question": "How do API credentials work?",
+        "answer": "API credentials allow you to access OrbitDesk's APIs securely. They provide authentication details that enable authorized users to make requests on behalf of your account. Each credential includes a unique identifier (display name), which helps in identifying the specific user or application using it. It also contains one or more scopes, which define what actions the user or application is allowed to perform within the OrbitDesk system. Additionally, each",
+        "sources": [
+            "02_roles_and_permissions.md",
+            "05_api_credentials.md"
+        ],
+        "verified": true
+    },
+    {
+        "question": "How do API credentials work?",
+        "answer": "API credentials allow for secure access to OrbitDesk's APIs by providing unique identifiers that grant specific permissions. Each credential includes a display name, one or more scopes (permissions), a creation timestamp, an optional expiration date, and a last-used timestamp. Once created, the secret associated with the credential remains confidential but cannot be accessed again after initial creation. Losing this secret would necessitate revoking the existing credential and creating a new one. These credentials are essential for integrating with OrbitDesk programmatically, ensuring that",
+        "sources": [
+            "02_roles_and_permissions.md",
+            "05_api_credentials.md"
+        ],
+        "verified": true
+    },
+    {
+        "question": "How can I refund my Netflix subscription?",
+        "answer": "I'm sorry, but I don't have any information about refunds for Netflix subscriptions. My capabilities are limited to providing assistance with questions related to OrbitDesk software. For information on how to refund a Netflix subscription, you should contact their customer support directly. They would be able to provide guidance specific to your situation. \n\nPlease let me know if there's anything else I can assist you with regarding OrbitDesk. I'd be happy to help with troubleshooting issues or other OrbitDesk-related inquiries.",
+        "sources": [
+            "04_scheduled_exports.md",
+            "06_connections_and_refreshes.md",
+            "07_delivery_destinations.md"
+        ],
+        "verified": true
+    },
+    {
+        "question": "How do API credentials work?",
+        "classification": "clarification",
+        "answer": "Could you please provide more details so I can assist you?",
+        "sources": [],
+        "verified": false
+    },
+    {
+        "question": "How do API credentials work?",
+        "classification": "answerable",
+        "answer": "API credentials allow for secure access to OrbitDesk's APIs by providing unique identifiers that grant specific permissions. Each credential includes a display name, one or more scopes (permissions), a creation timestamp, an optional expiration date, and a last-used timestamp. Once created, the secret associated with the credential remains confidential but cannot be accessed again after initial creation. Losing this secret would necessitate revoking the existing credential and creating a new one. These credentials are essential for integrating with OrbitDesk programmatically, ensuring that",
+        "sources": [
+            "02_roles_and_permissions.md",
+            "05_api_credentials.md"
+        ],
+        "verified": true
+    },
+    {
+        "question": "How do API credentials work?",
+        "classification": "answerable",
+        "answer": "API credentials allow for secure access to OrbitDesk's APIs by providing unique identifiers that grant specific permissions. Each credential includes a display name, one or more scopes (permissions), a creation timestamp, an optional expiration date, and a last-used timestamp. Once created, the secret associated with the credential remains confidential but cannot be accessed again after initial creation. Losing this secret would necessitate revoking the existing credential and creating a new one. These credentials are essential for integrating with OrbitDesk programmatically, ensuring that only authorized users have access to perform actions within the platform.",
+        "sources": [
+            "02_roles_and_permissions.md",
+            "05_api_credentials.md"
+        ],
+        "verified": true
+    },
+    {
+        "question": "Who can create API credentials?",
+        "classification": "answerable",
+        "answer": "Owners and Admins can create API credentials. Analysts and Viewers cannot create API credentials. \n\nThis information was extracted directly from the given text under \"Creating a Credential\" section. It specifies that only Owners and Admins have permission to create API credentials while Analysts and Viewers do not. This ensures clarity on who is authorized to perform this task within the system. \n\nPlease note that if there were any additional details or nuances about creating API credentials that weren't covered here, those would need to be addressed separately. However, based solely on the provided context, the above statement accurately reflects the information given. \n\nThe response adheres strictly to the guidelines by providing accurate and relevant information without making assumptions beyond what is explicitly stated in the context. No external data sources were used; all answers are derived directly from the provided text. \n\nIn cases where further clarification or additional context might be needed,",
+        "sources": [
+            "02_roles_and_permissions.md",
+            "05_api_credentials.md"
+        ],
+        "verified": true
+    },
+    {
+        "question": "How do API credentials work?",
+        "classification": "answerable",
+        "answer": "API credentials allow for secure access to OrbitDesk's APIs by providing unique identifiers that grant specific permissions. Each credential includes a display name, one or more scopes (permissions), a creation timestamp, an optional expiration date, and a last-used timestamp. Once created, the secret associated with the credential remains confidential but cannot be accessed again after initial creation. Losing this secret would necessitate revoking the existing credential and creating a new one. These credentials are essential for integrating with OrbitDesk programmatically, ensuring that only authorized users have access to perform actions within the platform.",
+        "sources": [
+            "02_roles_and_permissions.md",
+            "05_api_credentials.md"
+        ],
+        "verified": true
+    },
+    {
+        "question": "What are roles and permissions in OrbitDesk?",
+        "classification": "answerable",
+        "answer": "Roles and permissions in OrbitDesk include Owner, Admin, Analyst, and Viewer. Each role grants specific access levels within the system, with Owner having full control over all aspects of the workspace. Permissions apply only within the workspace where the role is assigned. For more detailed information on each role, refer to the documentation. If you need assistance with creating or managing API credentials, please contact your administrator.",
+        "sources": [
+            "02_roles_and_permissions.md",
+            "05_api_credentials.md",
+            "10_security_and_safe_responses.md"
+        ],
+        "verified": true
+    },
+    {
+        "question": "It is not working.",
+        "classification": "clarification",
+        "answer": "Could you please provide more details so I can assist you?",
+        "sources": [],
+        "verified": false
+    },
+    {
+        "question": "I want to speak to a human support agent.",
+        "classification": "escalation",
+        "answer": "This request should be escalated to a human support representative.",
+        "sources": [],
+        "verified": false
+    },
+    {
+        "question": "Who won the FIFA World Cup?",
+        "classification": "out_of_scope",
+        "answer": "This question is outside the OrbitDesk knowledge base.",
+        "sources": [],
+        "verified": false
+    },
+    {
+        "question": "Who won the FIFA World Cup?",
+        "classification": "out_of_scope",
+        "answer": "This question is outside the OrbitDesk knowledge base.",
+        "sources": [],
+        "verified": false
+    }
+]

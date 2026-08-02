@@ -2,7 +2,7 @@
 
 An AI-powered Retrieval-Augmented Generation (RAG) Support Assistant built using **LangGraph**, **FAISS**, **Sentence Transformers**, and **Hugging Face Transformers**.
 
-The application answers OrbitDesk support questions by retrieving relevant information from a local knowledge base and generating responses using a locally running Large Language Model (LLM). No hosted LLM APIs are required after the models are downloaded.
+The application answers OrbitDesk support questions by retrieving relevant information from a local knowledge base and generating responses using a locally running Large Language Model (LLM). It runs entirely on the local machine after the required models have been downloaded, without relying on hosted LLM APIs.
 
 ---
 
